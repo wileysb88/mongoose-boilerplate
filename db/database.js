@@ -14,14 +14,3 @@ mongoose.connection.on('error', function(error) {
 mongoose.connection.on('disconnected', function() {
   console.log('Mongoose disconnected from: ' + process.env.DB);
 });
-
-// listen for the 'error' and 'disconnected' events
-// log out something when either occur
-// then, kill your server.
-// which event fired?
-// restart your server...
-// then, go find the terminal tab running sudo mongod
-// kill it
-// which event fired?
-// when done.. restart sudo mongod and get ready
-// for block #2
